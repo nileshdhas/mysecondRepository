@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="verification_In_TestNg.SoftAssertUse">
+        <methods>
+          <include name="mymethod"/>
+          <include name="mymethod2"/>
+        </methods>
+      </class> <!-- verification_In_TestNg.SoftAssertUse -->
+      <class name="verification_In_TestNg.HardAssertStudy">
+        <methods>
+          <include name="MYMETHOD"/>
+        </methods>
+      </class> <!-- verification_In_TestNg.HardAssertStudy -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
